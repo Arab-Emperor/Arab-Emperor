@@ -228,19 +228,19 @@ header .branches li a:hover {
 }
 
 @media (max-width: 992px) {
-    .managers .container .boxes .ahmed {
+    .managers .container .boxes .order-1-mobile {
         order: 1;
     }
 
-    .managers .container .boxes .boss {
+    .managers .container .boxes .order-2-mobile {
         order: 2;
     }
 
-    .managers .container .boxes .noor {
+    .managers .container .boxes .order-3-mobile {
         order: 3;
     }
 
-    .managers .container .boxes .hamo {
+    .managers .container .boxes .order-4-mobile {
         order: 4;
     }
 }
