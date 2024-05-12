@@ -300,9 +300,21 @@ header .branches li a:hover {
 }
 
 /* End Managers */
-/* Start description */
-
-/* End description */
+/* Start information */
+.information h2{
+    font-size:24px;
+} 
+.information p {
+    font-size:24px;
+    line-height:1.6;
+}
+@media (max-width:435px) {
+    .information p {
+        font-size:20px;
+         line-height:1.4; 
+    }
+}
+/* End information */
 /* Start Footer */
 footer {
     text-align: center;
