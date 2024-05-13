@@ -359,21 +359,42 @@ footer .copyright span {
 .apply {
     width: fit-content;
     padding-top: 200px;
-    text-align:center;
+     text-align:center; 
 }
 .apply iframe {
     margin: auto;
+}
+@media(min-width:375px){
+    .apply iframe {
+        width: 350px;
+    }
+}
+@media(min-width:435px){
+    .apply iframe {
+        width: 400px;
+    }
 }
 @media(min-width:768px){
     .apply iframe {
         width: 640px;
     }
 }
-@media(max-width:767px){
+@media(min-width:1024px){
+    .apply {
+        text-align: right;
+    }
+}
+@media(min-width:1024px){
+    .apply iframe{
+        width: 1000px;
+    }
+}
+
+/* @media(max-width:767px){
     .apply iframe {
         width: 300px;
     }
-}
+} */
 /* End Apply Page */
 /* Start Framework */
 .active {
