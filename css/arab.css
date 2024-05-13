@@ -355,6 +355,13 @@ footer .copyright span {
 
 /* End Footer */
 /* END Home Page */
+/* Start Apply Page */
+.apply {
+    width: fit-content;
+    padding-top: 200px;
+    text-align:center;
+}
+/* End Apply Page */
 /* Start Framework */
 .active {
     color: #777;
