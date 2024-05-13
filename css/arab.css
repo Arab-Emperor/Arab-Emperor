@@ -361,6 +361,19 @@ footer .copyright span {
     padding-top: 200px;
     text-align:center;
 }
+.apply iframe {
+    margin: auto;
+}
+@media(min-width:768px){
+    .apply iframe {
+        width: 640px;
+    }
+}
+@media(max-width:767px){
+    .apply iframe {
+        width: 300px;
+    }
+}
 /* End Apply Page */
 /* Start Framework */
 .active {
