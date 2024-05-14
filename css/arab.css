@@ -364,6 +364,11 @@ footer .copyright span {
 .apply iframe {
     margin: auto;
 }
+@media(min-width:320px){
+    .apply iframe {
+        width: 300px;
+    }
+}
 @media(min-width:375px){
     .apply iframe {
         width: 350px;
@@ -383,8 +388,6 @@ footer .copyright span {
     .apply {
         text-align: right;
     }
-}
-@media(min-width:1024px){
     .apply iframe{
         width: 1000px;
     }
