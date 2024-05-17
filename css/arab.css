@@ -1,10 +1,13 @@
 /* Start Global Rules */
+:root {
+    --main-color: #0067b2;
+}
 * {
   box-sizing: border-box;
 }
 ::selection {
   background-color: black;
-  color: #0067b2;
+    color: var(--main-color);
 }
 img::selection {
   color: transparent;
@@ -225,7 +228,7 @@ header .branches li a:hover {
   height: 100%;
 }
 .managers .container .boxes .box h2 {
-  color: #0067b2;
+    color: var(--main-color);
 }
 .managers .container .boxes .box .image img,
 .managers .container .boxes .box .image video {
@@ -308,7 +311,7 @@ footer .copyright {
   }
 }
 footer .copyright span {
-  color: #0067b2;
+    color: var(--main-color);
 }
 /* End Footer */
 /* END Home Page */
@@ -360,7 +363,7 @@ footer .copyright span {
   border-top-right-radius: 3px;
 }
 .store .container .boxes .box h3 {
-  color: #0067b2;
+    color: var(--main-color);
 }
 .store .container .boxes .box p {
   line-height: 1.6;
@@ -373,7 +376,7 @@ footer .copyright span {
   color: white;
   margin-top: 15px;
   padding: 10px;
-  background-color: #0067b2;
+  background-  color: var(--main-color);
   border-radius: 3px;
   font-size: 18px;
   display: block;
@@ -412,11 +415,11 @@ footer .copyright span {
     font-weight: bold;
 }
 .apply .container input {
-    caret-color: #0067b2;
-    background-color: #ddd;
+    caret-color: var(--main-color);
+    background-color: #eee;
     font-size: 18px;
     font-weight: bold;
-    color: #0067b2;
+    color:   var(--main-color);
     padding:5px;
     display: block;
     margin: 10px 0;
@@ -450,14 +453,14 @@ footer .copyright span {
   }
 }
 .apply .container input:focus {
-    outline: #0067b2 2px solid;
+    outline:   var(--main-color) 2px solid;
     border: none;
 }
 .apply .container button {
     font-weight: bold;
     outline: none;
     border: none;
-    color: #0067b2;
+    color:   var(--main-color);
     background-color: #eee;
     padding: 10px;
     border-radius: 6px;
