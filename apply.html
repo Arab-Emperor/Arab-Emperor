@@ -1,62 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/arab.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/arab.css" />
     <!-- Render All Elements Normally -->
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- Font Awesome Library -->
     <!-- For Use Icons From Font Awesome -->
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css" />
     <!-- Google Fonts EN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Google Fonts AR -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
     <!-- Icon For Website -->
     <link rel="icon" href="media/logo-1.png" />
     <title>Apply</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Start Background -->
-    <img class="background"  src="media/background.png" alt="background">
+    <img class="background" src="media/background.png" alt="background" />
     <!-- -->
     <!-- End Background -->
-     <!-- Start Header -->
-  <header>
-    <div class="container">
-      <div class="logo"><a href="index.html"><img src="media/logo.png" alt="logo"></a></div>
-
-      <ul class="branches">
-        <li><a class="link" href="index.html">الرئيسية</a></li>
-        <li><a class="active" href="apply.html">التقديم</a></li>
-        <li><a class="link en" href="apply-en.html">EN</a></li>
-      </ul>
-    </div>
-  </header>
-  <!-- End Header -->
-  <!-- Start Apply -->
-  <div class="apply">
+    <!-- Start Header -->
+    <header>
       <div class="container">
-          <h2>املأ النموذج التالي</h2>
-          
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebEOIDdLnneyOnYX7OEfSDSb3qIs25It7vlnx0R3IXippqGg/viewform?embedded=true" height="3652" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe>
+        <div class="logo">
+          <a href="index.html"><img src="media/logo.png" alt="logo" /></a>
+        </div>
+
+        <ul class="branches">
+          <li><a class="link" href="index.html">الرئيسية</a></li>
+          <li><a class="active" href="apply.html">التقديم</a></li>
+          <li><a class="link en" href="apply-en.html">EN</a></li>
+        </ul>
       </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Apply -->
+    <h2 class="title">املأ النموذج التالي</h2>
+    <div class="apply">
+      <div class="container">
+        <form dir="rtl" action="https://formspree.io/f/xwkgzzvg" method="POST">
+          <label for="name">اسمك الحقيقي</label>
+          <input required type="text" name="name" />
+          <label for="age">عمرك الحقيقي</label>
+          <input required type="text" name="age" />
+          <label for="country">جنسيتك</label>
+          <input required type="text" name="country" />
+          <label for="name-inside-server">اسمك داخل الخادم</label>
+          <input required type="text" name="name-inside-server" />
+          <label for="name-in-discord">اسمك في الديسكورد</label>
+          <input required type="text" name="name-in-discord" />
+          <label for="username-in-discord">ايديك في الديسكورد</label>
+          <input required type="text" name="username-in-discord" />
+          <label for="MG">تعريف قانون MG</label>
+          <input required type="text" name="MG" />
+          <label for="DM">تعريف قانون DM</label>
+          <input required type="text" name="DM" />
+          <label for="LK">تعريف قانون Lk</label>
+          <input required type="text" name="LK" />
+          <label for="ATA">تعريف قانون ATA</label>
+          <input required type="text" name="ATA" />
+          <label for="LTA">تعريف قانون LTA</label>
+          <input required type="text" name="LTA" />
+          <label for="GR">تعريف قانون GR</label>
+          <input required type="text" name="GR" />
+          <label for="PK">تعريف قانون PK</label>
+          <input required type="text" name="PK" />
+          <label for="PD">تعريف قانون PD</label>
+          <input required type="text" name="PD" />
+          <label for="PG">تعريف قانون PG</label>
+          <input required type="text" name="PG" />
+          <label for="VDM">تعريف قانون VDM</label>
+          <input required type="text" name="VDM" />
+          <label for="WS">تعريف قانون WS</label>
+          <input required type="text" name="WS" />
+          <label for="DDB">تعريف قانون DDB</label>
+          <input required type="text" name="DDB" />
+          <label for="RTR">تعريف قانون RTR</label>
+          <input required type="text" name="RTR" />
+          <label for="DOS">تعريف قانون DOS</label>
+          <input required type="text" name="DOS" />
+          <label for="KOS">تعريف قانون KOS</label>
+          <input required type="text" name="KOS" />
+          <label for="AR">تعريف قانون AR</label>
+          <input required type="text" name="AR" />
+          <label for="WH">تعريف قانون WH</label>
+          <input required type="text" name="WH" />
+          <label for="MD">تعريف قانون MD</label>
+          <input required type="text" name="MD" />
+          <label dir="ltr" for="/gm">/gm</label>
+          <input required type="text" name="/gm" />
+          <label dir="ltr" for="/g">/g</label>
+          <input required type="text" name="/g" />
+          <label dir="ltr" for="/st">/st</label>
+          <input required type="text" name="/st" />
+          <label dir="ltr" for="/ar">/ar</label>
+          <input required type="text" name="/ar" />
+          <label dir="ltr" for="/cr">/cr</label>
+          <input required type="text" name="/cr" />
+          <label dir="ltr" for="/recon">/recon</label>
+          <input required type="text" name="/recon" />
+          <label dir="ltr" for="/goto">/goto</label>
+          <input required type="text" name="/goto" />
+          <label dir="ltr" for="/gethere">/gethere</label>
+          <input required type="text" name="/gethere" />
+          <label dir="ltr" for="/gotoplace">/gotoplace</label>
+          <input required type="text" name="/gotoplace" />
+          <label dir="ltr" for="/fly">/fly</label>
+          <input required type="text" name="/fly" />
+          <label dir="ltr" for="/aduty">/aduty</label>
+          <input required type="text" name="/aduty" />
+          <label dir="ltr" for="/supvisor">/supvisor</label>
+          <input required type="text" name="/supvisor" />
+          <label dir="ltr" for="/a">/a</label>
+          <input required type="text" name="/a" />
+          <button type="submit">إرسال</button>
+        </form>
       </div>
-  <!-- End Apply -->
-  <!-- Start Footer -->
-  <footer>
-    <div class="container">
-      <h4>سيرفر الديسكورد الخاص بنا </h4>
-      <a href="https://discord.gg/tgN7kWgM2W" target="_blank"><i class="fa-brands fa-discord"></i></a>
     </div>
-    <p class="copyright">&copy; 2024 <span>إمبراطورية العرب</span> جميع الحقوق محفوظة</p>
-  </footer>
-  <!-- End Footer -->
+    <!-- End Apply -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <h4>سيرفر الديسكورد الخاص بنا</h4>
+        <a href="https://discord.gg/tgN7kWgM2W" target="_blank"
+          ><i class="fa-brands fa-discord"></i
+        ></a>
+      </div>
+      <p class="copyright">
+        &copy; 2024 <span>إمبراطورية العرب</span> جميع الحقوق محفوظة
+      </p>
+    </footer>
+    <!-- End Footer -->
   </body>
-  </html>
+</html>
